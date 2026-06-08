@@ -89,7 +89,7 @@ Use `--body-file` for complex JSON. Summarize JSON output for users unless they 
 
 ## MCP Flow
 
-Host labels such as `cyy-mall-bailian` are just local MCP server names chosen by the orchestrator config. They are not npm package names and are not the `cyy` CLI command.
+Host labels such as `cyy-mall` are just local MCP server names chosen by the orchestrator config. They are not npm package names and are not the `cyy` CLI command.
 
 MCP hosts can launch either:
 
