@@ -1,0 +1,38 @@
+{
+  "name": "cyy-mall-skill",
+  "version": "0.1.0",
+  "description": "Install the CyyMall Agent skill for Codex and other coding agents.",
+  "type": "module",
+  "bin": {
+    "cyy-mall-skill": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "scripts",
+    "SKILL.md",
+    "SKILL_ZH.md",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "node --check bin/install.js",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "agent-skill",
+    "codex-skill",
+    "cyymall",
+    "dhcmall",
+    "mcp",
+    "cli"
+  ],
+  "homepage": "https://github.com/huizai0613/cyy-mall-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/huizai0613/cyy-mall-skill.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

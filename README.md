@@ -11,7 +11,37 @@ The skill does not contain the CLI implementation. It teaches an Agent how to ve
 
 ## Install
 
-Install this repository as one skill. The skill root is this repository root, containing `SKILL.md`.
+Recommended npm installer:
+
+```bash
+npx cyy-mall-skill
+```
+
+Install to all common local Agent skill directories:
+
+```bash
+npx cyy-mall-skill --target all
+```
+
+Use `--force` to overwrite an existing local copy:
+
+```bash
+npx cyy-mall-skill --force
+```
+
+Install the Chinese skill body:
+
+```bash
+npx cyy-mall-skill --zh
+```
+
+Install into a custom skills directory:
+
+```bash
+npx cyy-mall-skill --dest ~/.codex/skills
+```
+
+You can also install this repository as one GitHub skill. The skill root is this repository root, containing `SKILL.md`.
 
 After installation, restart the Agent host so the skill metadata is reloaded.
 
