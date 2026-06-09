@@ -43,6 +43,13 @@ npx cyy-mall-skill --dest ~/.codex/skills
 
 You can also install this repository as one GitHub skill. The skill root is this repository root, containing `SKILL.md`.
 
+On Windows, if `npx` installs the package but cannot execute it, make sure npm's global prefix is in the current `PATH`:
+
+```powershell
+$env:PATH = "$(npm config get prefix);$env:PATH"
+npx cyy-mall-skill
+```
+
 After installation, restart the Agent host so the skill metadata is reloaded.
 
 ## Runtime Setup
