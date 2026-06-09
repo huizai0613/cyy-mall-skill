@@ -91,7 +91,7 @@ cyy order pay-url --order-id <id>
 
 ## MCP 流程
 
-诸如 `cyy-mall-bailian` 这样的宿主标签只是编排器配置中选择的本地 MCP 服务器名称。它们不是 npm 包名，也不是 `cyy` CLI 命令。
+诸如 `cyy-mall` 这样的宿主标签只是编排器配置中选择的本地 MCP 服务器名称。它们不是 npm 包名，也不是 `cyy` CLI 命令。
 
 MCP 宿主可以通过以下方式启动：
 
